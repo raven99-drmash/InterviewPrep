@@ -1,0 +1,50 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/Welcome10Element"
+    },
+    "definitions": {
+        "Welcome10Element": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "brand": {
+                    "type": "string"
+                },
+                "engine_cc": {
+                    "type": "number"
+                },
+                "fuel": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "mileage_kmpl": {
+                    "type": "integer"
+                },
+                "model": {
+                    "type": "string"
+                },
+                "price_lakhs": {
+                    "type": "number"
+                },
+                "segment": {
+                    "type": "string"
+                },
+                "user": {
+                    "type": "string"
+                },
+                "topSpeed": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "brand",
+                "id"
+            ],
+            "title": "Welcome10Element"
+        }
+    }
+}
